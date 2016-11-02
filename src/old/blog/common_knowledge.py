@@ -83,7 +83,7 @@ image = np.concatenate([np.concatenate(fiducial_images_1, axis=1),
                         np.concatenate(fiducial_images_2, axis=1)])
 fig = plt.figure()
 ax = fig.add_subplot(111)
-ax.matshow(image, cmap = matplotlib.cm.binary)
+ax.matshow(image, cmap=matplotlib.cm.binary)
 plt.xticks(np.array([]))
 plt.yticks(np.array([]))
 plt.show()
